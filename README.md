@@ -1,2 +1,2 @@
-# PavelShishanin.github.io
+# Lenny-project
 Educational project

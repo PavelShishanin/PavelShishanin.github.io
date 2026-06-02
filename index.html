@@ -5,21 +5,33 @@
     <meta charset="UTF-8" />
     <title>Lenni</title>
     <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
 
   <body class="body">
     <header class="page-header">
-      <a class="page-header__logo" href="#">Logo</a>
-      <nav class="page-header__nav">
-        <a class="page-header__nav-link" href="#">Мероприятия</a>
-        <a class="page-header__nav-link" href="#">Блог</a>
-        <a class="page-header__nav-link" href="#">О нас</a>
-        <a class="page-header__nav-link" href="#">Контакты</a>
-      </nav>
-      <a class="page-header__user-link" href="#">Войти</a>
+      <div class="page-header__container">
+        <a href="index.html" class="page-header__logo">
+          <img src="assets/icons/logo.svg" alt="logo" class="page-header__logo-icon"></a>
+
+        <nav class="page-header__nav">
+          <a href="#" class="page-header__nav-link">Мероприятия</a>
+          <a href="#" class="page-header__nav-link">Блог</a>
+          <a href="#" class="page-header__nav-link">О нас</a>
+          <a href="#" class="page-header__nav-link">Контакты</a>
+        </nav>
+
+        <div class="page-header__right-block">
+          <a href="#" class="btn page-header__user-btn">Войти</a>
+        </div>  
+      </div>
     </header>
+
     <main class="main">
-      <di class="home">
+      <div class="home">
         <header class="main-header home__main-header">
           <h1>АРТ-ПРОСТРАНСТВО</h1>
           <img >
@@ -58,7 +70,9 @@
         <div class="doitf"></div>
       </div>
     </main>
-    <footer class="page-footer"></footer>
-  </body>
 
+    <footer class="page-footer">
+      FOOTER
+    </footer>
+  </body>
 </html>
